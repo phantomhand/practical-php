@@ -5,13 +5,8 @@
 	
 	// Custom Variables
 	$myName	= "Frank Aveni";
-<<<<<<< HEAD
 	$lessonNum	= 24;
-
-=======
-	$lessonNum	= 23;
 	
->>>>>>> 6a5a0b9fd1a65d4ba9255c45b42e08d84315ef06
 ?>
 
 <!DOCTYPE html>
@@ -33,49 +28,8 @@
 			
 			<div class="sandbox">
 				
-				<h3>Using <code>sort()</code></h3>
 				<?php
 					
-					$dinner = array("Meat", "Potatoes", "Beans", "Rice", "Vegetables");
-                    
-                    sort($dinner);
-                    
-                    foreach ($dinner as $ingredient) {
-                    
-                    echo "$ingredient <br>";
-                    
-                    }
-					
-				?>
-				
-				<h3>Using <code>rsort()</code></h3>
-				<?php
-					        
-                    rsort($dinner);
-                    
-                    foreach ($dinner as $ingredient) {
-                    
-                    echo "$ingredient <br>";
-                    
-                    }
-					
-				?>
-				
-				<h3>Using <code>strtolower()</code></h3>
-				<?php
-					
-					$text = "Twinkle Twinkle Little Star";
-                
-                    $text = strtolower($text);
-                
-                    echo $text;
-					
-				?>
-				
-				<h3>Using <code>sha1()</code></h3>
-				<?php
-					
-<<<<<<< HEAD
 					function hangTen() {
                         
                         echo "Surf's up, dudes!";
@@ -92,17 +46,7 @@
                         echo "Bummer, brah!";
                         
                     }    
-                
-=======
-					$password = "MyPassword";
-                
-                    echo "Before: $password <br>";
-                
-                    $password = sha1($password);
-                
-                    echo "After: $password";
 					
->>>>>>> 6a5a0b9fd1a65d4ba9255c45b42e08d84315ef06
 				?>
 				
 			</div><!-- end sandbox -->
