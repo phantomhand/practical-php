@@ -4,8 +4,8 @@
 	define("TITLE", "Simple Arguments");
 	
 	// Custom Variables
-	$myName	= "Brad Hussey";
-	$lessonNum	= 25;
+	$myName	= "Frank Aveni";
+	$lessonNum = 25;
 
 ?>
 
@@ -30,15 +30,33 @@
 				
 				<h3>One Argument</h3>
 				<?php
-					
-					// your code here
+                        
+                    function hangTen($location) {
+                        
+                    echo "We're surfing in $location!<br>";
+                        
+                    }
+                
+                    hangTen("Hawaii");
+                    hangTen("California");
+                    hangTen("Rhode Island");                 
 					
 				?>
 				
 				<h3>Two Arguments</h3>
 				<?php
 				
-					// your code here
+					function multiplyTogether($val1, $val2) {
+                        
+                        $product = $val1 * $val2;
+                        
+                        echo "The first number is $val1<br>";
+                        echo "The second number is $val2<br>";
+                        echo "The product of the two numbers is: $product<br>";
+                        echo "That is to say, $val1 x $val2 = $product";
+                    }
+                
+                    multiplyTogether(14, 22);
 				
 				?>
 				
