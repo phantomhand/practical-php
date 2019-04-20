@@ -15,25 +15,30 @@
               <div class="column three last">
                  <strong>Hours</strong>
                   <em>Monday - Thursday</em><br>
-                  1:00pm-9:00pm<br><br>
+                  1:00pm - 9:00pm<br><br>
                   
                   <em>Friday - Saturday</em><br>
-                  4:00pm-11:00pm<br><br>
+                  4:00pm - 11:00pm<br><br>
                   
                   <em>Sunday</em><br>
-                  Closed<br>               
+                  Closed<br>
+                  
+                  <br>
+                  
+                  <?php include('includes/store-hours.php'); ?>
+                                           
               </div><!--column 3-->
                
            </div><!--footer-->
            
-           <small>&copy; 2019 Frank Aveni</small>
+           <small>&copy;<?php echo date('Y'); ?> <?php echo $companyName; ?></small>
            
         </div><!--content-->
         
     </div><!--wrapper-->
     
     <div class="copyright-info">
-        <?php include('../includes/copyright.php') ?>
+        <?php include('../includes/copyright.php'); ?>
     </div><!--copyright-info-->
      
  </body> 
