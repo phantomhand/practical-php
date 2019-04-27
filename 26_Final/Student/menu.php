@@ -6,7 +6,7 @@
 
     <div id="menu-items">
         
-        <h1>Our Delicious Menu</h1>
+        <h1>Our Menu</h1>
         <p>Like our team, our menu is very small &mdash; but man, does it ever pack a punch!</p>
         <p><em>Click any menu item to learn more about it.</em></p>
         
@@ -15,7 +15,7 @@
         <ul>
             <?php foreach ($menuItems as $dish => $item) { ?>
             
-            <li><a href="dish.php?item=<?php echo $dish; ?>"><?php echo $item[title]; ?></a> – <sup>$</sup><?php echo $item[price]; ?></li>
+            <li><a href="dish.php?item=<?php echo $dish; ?>"><?php echo $item["title"]; ?></a> – <sup>$</sup><strong><?php echo $item["price"]; ?></strong></li>
             
             <?php } ?>
             
@@ -25,5 +25,5 @@
         
     </div><!--menu-items-->
 
-<?php include(includes/footer.php); ?>
+<?php include('includes/footer.php'); ?>
 
