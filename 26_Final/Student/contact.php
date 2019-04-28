@@ -12,6 +12,23 @@
     
     <h1>Get in touch with us</h1>
     
+        <?php 
+            
+            // Check for and prevent header injections
+            function has_header_injection($str) {
+                return preg_match( "/[\r\n]/", $str );
+            }
+            
+            if (isset ($_POST['contact_submit'])) {
+
+                $name   = trim($POST['name']); 
+                $email  = trim($POST['email']);
+                $msg    = $POST['message'];
+
+            }
+    
+        ?>
+    
     <form method="post" action="" id="contact-form">
         
         <label for="name">Your Name</label>    
