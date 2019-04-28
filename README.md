@@ -1,3 +1,9 @@
 * practical-php
 
-Tracking progress in "Practical PHP: Master the Basics", aka "Code Dynamic Websites with PHP" (Udemy Course)
+Practical PHP: Master the Basics and Code Dynamic Websites
+
+Version control and progress tracking for this Udemy course
+
+Certificate of completion here: https://www.udemy.com/certificate/UC-LZSQC0Y7/
+
+Final project site can be seen here: http://aveni.biz/practical-php/
