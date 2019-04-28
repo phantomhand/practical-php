@@ -1,4 +1,4 @@
-* practical-php
+# practical-php
 
 Practical PHP: Master the Basics and Code Dynamic Websites
 
